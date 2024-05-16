@@ -10,6 +10,9 @@ class Admins extends Controller
 		}
 		$user = new Admin();
 
+
+		
+
 		$data = $user->findAll();
 
 		$this->view('home.admin',['rows'=>$data]);
