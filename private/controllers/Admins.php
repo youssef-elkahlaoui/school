@@ -11,6 +11,11 @@ class Admins extends Controller
 		$user = new Admin();
 
 
+
+
+
+
+
 		
 
 		$data = $user->findAll();
